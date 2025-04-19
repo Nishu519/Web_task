@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Arcadia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #A888B5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #441752;
+            color: white;
+            padding: 30px 10px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+        }
+        header h2 {
+            font-size: 1.8em;
+            font-weight: normal;
+            margin: 0;
+            color: #EFB6C8;
+        }
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .anime-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .anime-card {
+            border: 2px solid #8174A0;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            background-color: white;
+        }
+        .anime-card img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+        }
+        .anime-card p {
+            margin: 0;
+            padding: 10px;
+            background-color: #8174A0;
+            color: white;
+        }
+        .anime-card p a {
+            color: #EFB6C8;
+            text-decoration: none;
+        }
+        .anime-card p a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            background-color: #441752;
+            padding: 15px;
+            color: white;
+        }
+        button {
+            padding: 12px 24px;
+            background-color: #8174A0;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #441752;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anime Arcadia</h1>
+        <h2>Escape Reality. Embrace the Adventure</h2>
+    </header>
+    <div class="main-container">
+        <h2>Top Trending Anime</h2>
+        <div class="anime-container">
+            <div class="anime-card">
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202106/1704/2ZfAUG5CTXdM34S1OhmMW1zF.jpg" alt="Demon Slayer">
+                <p>Demon Slayer: Kimetsu no Yaiba</p>
+                <p><a href="https://www.youtube.com/watch?v=nKS3mF_D7dM" target="_blank">Watch Now!</a></p>
+            </div>
+            <div class="anime-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNmI1MmYxNWQtY2E5NC00ZTlmLWIzZGEtNzM1YmE3NDA5NzhjXkEyXkFqcGc@._V1_.jpg" alt="Jujutsu Kaisen">
+                <p>Jujutsu Kaisen</p>
+                <p><a href="https://www.youtube.com/watch?v=pkKu9hLT-t8" target="_blank">Watch Now!</a></p>
+            </div>
+            <div class="anime-card">
+                <img src="https://esportsinsider.com/wp-content/uploads/2025/02/solo-leveling-arise.jpg" alt="Solo Leveling">
+                <p>Solo Leveling</p>
+                <p><a href="https://www.youtube.com/watch?v=HkIKAnwLZCw&t=11s" target="_blank">Watch Now!</a></p>
+            </div>
+            <div class="anime-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjMyNjg4MzItMGI3MS00MGVmLWE5MDMtODk4NjIyNzFlOWZlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Mashle">
+                <p>Mashle: Magic and Muscles</p>
+                <p><a href="https://www.youtube.com/watch?v=_ce5_P1Hj5A" target="_blank">Watch Now!</a></p>
+            </div>
+            <div class="anime-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNGM1MTE4N2ItNWMxYS00MjhjLTllODYtYTViNDcxZGMxNjBkXkEyXkFqcGc@._V1_.jpg" alt="The Apothecary Diaries">
+                <p>The Apothecary Diaries</p>
+                <p><a href="https://www.youtube.com/watch?v=XYNGkSvFT8c" target="_blank">Watch Now!</a></p>
+            </div>
+            <div class="anime-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_.jpg" alt="Attack on Titan">
+                <p>Attack on Titan</p>
+                <p><a href="https://www.youtube.com/watch?v=MGRm4IzK1SQ" target="_blank">Watch Now!</a></p>
+            </div>
+        </div>
+        <button onclick="showAlert()">Click Me!</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Anime Arcadia. All rights reserved.</p>
+    </footer>
+    <script>
+        function showAlert() {
+            alert("Thanks for exploring Anime Arcadia! Keep watching your favorite shows!");
+        }
+    </script>
+</body>
+</html>
